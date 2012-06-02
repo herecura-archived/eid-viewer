@@ -1,0 +1,16 @@
+pkgbase = eid-viewer
+	pkgdesc = Viewer for Belgian Electronic Identity Card
+	pkgver = 4.0.2.132
+	pkgrel = 1
+	url = https://code.google.com/p/eid-viewer/
+	arch = any
+	license = LGPL3
+	makedepends = subversion
+	depends = java-runtime
+	depends = pcsclite
+	source = https://eid-viewer.googlecode.com/files/eid-viewer-4.0.2-132.src.tar.gz
+	md5sums = 5228e2aa1f6caf9bdc6d30cda57bdc40
+	sha1sums = 62090fc0b603379a3e8abd6662f381e00dde2469
+
+pkgname = eid-viewer
+
