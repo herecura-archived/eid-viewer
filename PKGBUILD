@@ -4,7 +4,7 @@
 # Contributor: Vianney le Clément <vleclement AT gmail·com>
 # Contributor: Valère Monseur <valere DOT monseur AT ymail·com>
 pkgname=eid-viewer
-pkgver=4.1.18
+pkgver=4.1.20
 pkgrel=1
 
 pkgdesc="Viewer for Belgian Electronic Identity Card"
@@ -13,7 +13,7 @@ url="http://eid.belgium.be/"
 license=('LGPL3')
 depends=('java-runtime' 'gsettings-desktop-schemas' 'eid-mw' 'desktop-file-utils' 'hicolor-icon-theme')
 source=("https://dist.eid.belgium.be/continuous/sources/$pkgname-$pkgver-v$pkgver.src.tar.gz")
-sha256sums=('00946bef872457d31543a0c0a608b3e99148dcfe0e2e0bcbbf9a420a5beaa9ab')
+sha256sums=('1e141c8617a91f82fe64ce35edd0eb334c34579e534f0f8e2a716d60aae52da8')
 
 build() {
   cd "$pkgname-$pkgver"
